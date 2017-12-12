@@ -1,0 +1,994 @@
+#blok1{
+  height: 100vh;
+  background-color: #171717;
+  background-image: 
+  repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(45, 45, 45, .2) 35px, rgba(45, 45, 45, .2) 50px);
+}
+
+.rondje{
+  border-radius: 60px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background: #f18363;
+  margin: 220px 300px;
+  z-index: 1;
+}
+
+.pijltje{
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: #62646f;
+  position: absolute;
+  z-index: 1;
+  margin: 420px 1200px;
+}
+
+.driehoek {
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: 1;
+  margin: 520px 120px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #5fbc9f;
+}
+
+#blok1 > h1{
+  font-size: 125px;
+  font-family: raleway;
+  font-weight: bold;
+  color: #f8d573;
+  text-align: center;
+  padding-top: 40px;
+  /*padding: 160px;*/
+}
+
+#blok1 > h2{
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  font-family: raleway;
+}
+
+#blok1 > h3{
+  padding-top: 12vh;
+  font-family: raleway;
+  font-weight: 600;
+  color: #7673f8;
+  font-size: 25px;
+  text-align: center;
+}
+
+#blok1 > h4{
+  color: #f8d573;
+  font-family: raleway;
+  text-align: center;
+  padding-top: 20px;
+}
+.tekstbox{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  line-height: 120px;
+  font-family: pacifico;
+}
+h5{
+	font-size: 20px;
+	text-align: center;
+}
+
+.callout.primary{
+
+  background: #171717 ; 
+  color: #f8d573
+}
+
+.callout.primary h1{
+  font-family: raleway;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.callout.primary h2{
+  font-family: raleway;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+div#my-info{
+  background-color: white;
+  font-family: raleway;
+}
+
+.column > h3{
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.challenge{
+  padding-top: 60px;
+}
+
+.column{
+  padding-bottom: 5%;
+}
+/*Dag 1*/
+
+.dag1_1{
+  position:relative;
+  vertical-align: middle;
+  color: #0b7;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+  padding:  0 20px;
+  cursor: pointer;
+  border: 2px solid #0b7;
+  width: 200px;
+  font-family: raleway;
+  font-weight: 800;
+  -webkit-transition:0.5s;
+  padding-bottom: 25px;
+}
+
+.dag1_1:hover{
+  -ms-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg); 
+  transform: rotate(7deg);
+}
+
+.dag1_2{
+  position:relative;
+  vertical-align: middle;
+  color: #0b7;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+  margin-top: 20px;
+  padding:  0 20px;
+  cursor: pointer;
+  border: 2px solid #0b7;
+  width: 200px;
+  font-family: raleway;
+  font-weight: 800;
+  -webkit-transition:0.5s;
+  padding-bottom: 25px;
+}
+
+.dag1_2:hover{
+  -ms-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg); 
+  transform: rotate(-7deg);
+}
+
+/* Dag 1 Einde*/
+
+/*Dag 2*/
+
+.boxnew {
+  position:relative;
+  vertical-align: middle;
+  color: #0b7;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+  padding:  0 20px;
+  cursor: pointer;
+  border: 2px solid #0b7;
+  font-family: raleway;
+  font-weight: 800;
+  -webkit-transition:0.5s;
+  padding-bottom: 25px;
+}
+
+.boxnew:hover {
+  border: 2px solid rgba(0,160,80,0);
+  color: #FFF;
+}
+
+.boxnew::before, .boxnew::after {
+  width: 100%;
+  height:100%;
+  
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+}
+
+.foo::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 3px solid #FFF;
+  -webkit-transform-origin: 0 100%;
+}
+
+.foo::after {
+  border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+  -webkit-transform-origin: 100% 0%;
+}
+
+.boxnew:hover::after, .boxnew:hover::before {
+  -webkit-transform: scale(1);
+}
+
+.title{
+  font-size: 55px;
+  font-family: Raleway;
+  font-weight: 600;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.subtitle{
+  padding-top: 10%;
+}
+
+/*Dag 2 einde*/
+
+/*Dag 3*/
+.dag1_3{
+  position:relative;
+  vertical-align: middle;
+  color: #0b7;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+  padding:  0 20px;
+  cursor: pointer;
+  border: 2px solid #0b7;
+  width: 200px;
+  font-family: raleway;
+  font-weight: 800;
+  -webkit-transition:0.5s;
+  padding-bottom: 25px;
+}
+
+.dag1_3:hover{
+  transform:translate(20px,20px);
+}
+
+/*Einde dag 3*/
+
+/* Dag 4*/
+#dag1_4 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    padding-top: 5%;
+    position: relative;
+    -webkit-transition: all 300ms ease-in;
+}
+#dag1_4:hover {
+    -webkit-transform: rotate(-180deg) scale(0.4);
+}
+#dag1_4:after, #dag1_4:before {
+    display: block;
+    content: "\0020";
+    color: transparent;
+    width: 211px;
+    height: 45px;
+    background: white;
+    position: absolute;
+    left: 1px;
+    bottom: -20px;
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+}
+#dag1_4:before {
+    bottom: auto;
+    top: -20px;
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+}
+
+/*Einde dag 4*/
+
+/* Dag 5*/
+/*Einde dag 5*/
+
+/* Dag 6*/
+
+.para{
+  color: black; 
+  font-family: "Raleway";
+  font-size: 14px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 15em;
+  animation: type 4s steps(60, end); 
+}
+
+.para:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+.para a{
+  color: black;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+/*Einde dag 6*/
+
+/*Dag 7*/
+.box8november {
+  height: 150px;
+  width: 150px;
+  margin-left: 30px;
+  background: black;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.box8november:hover {
+  background: #ff7b29;
+}
+/*Einde dag 7*/
+
+/*Dag 8*/
+.box9november {
+    height: 150px;
+    width: 150px;
+    background: black;
+    margin-left: 30px;
+    border-radius: 6px
+    transition-property: background, border-radius;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+  }
+  .box9november:hover {
+    background: red;
+    border-radius: 50%;
+  }
+/*Einde van dag 8*/
+
+/*Dag 9*/
+.box10november {
+    height: 50px;
+    width: 50px;
+    background: #2db34a;
+    margin-left: 60px;
+    border-radius: 6px
+    transition-property: background, border-radius;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+
+  }
+  .box10november:hover {
+    background: #ff7b29;
+    border-radius: 50%;
+    transform:translate(50px,20px);
+  }
+/*Einde van dag 9*/
+
+/*Dag 10*/
+.box11november {
+    height: 70px;
+    width: 50px;
+    background: #2db34a;
+    /*margin-left: 60px;*/
+    border-radius: 6px
+    transition-property: background, border-radius;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+ }
+
+.box11november:hover{
+	width: 170px;
+    height: 50px;
+    color: white;
+
+}
+
+/*Einde van dag 10*/
+
+/*Dag 11 */
+.box12november {
+	width: 155px;
+  height: 155px;
+  background: black;
+  margin-left: 30px;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 5s infinite;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+/*Einde van dag 11*/
+
+/*Dag 12*/
+.box13november {
+	width: 155px;
+  height: 155px;
+	background: black;
+  margin-left: 30px;
+
+}
+
+.box13november:active{
+	animation: box13november 0.65s linear alternate-reverse both;
+}
+@keyframes box13november {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(0.5) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+
+/*Einde van dag 12*/
+
+/*Dag 13*/
+.box14november {
+	width: 155px;
+  height: 155px;
+	background: black;
+  margin-left: 30px;
+}
+
+.box14november:active{
+	-webkit-animation: box14november 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: box14november 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes box14november {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+/*Einde van dag 13*/
+
+/*Dag 14*/
+.box15november {
+	width: 155px;
+    height: 155px;
+	background: black;
+  margin-left: 30px;
+}
+
+.box15november:active{
+	-webkit-animation: box14november 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: box14november 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes box14november {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px;);
+  }
+
+  75% {
+  	-webkit-transform: translateX(-100px);
+  			transform: translateX(-100px);
+  }
+
+  100% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+  }
+}
+/*Einde van dag 14*/
+
+/*Dag 15*/
+.box16november {
+
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-left: 30px;
+  width: 150px;
+  height: 150px;
+  background: black;
+}
+.box16november > div {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: box16november 1s 0s linear infinite;
+  animation: box16november 1s 0s linear infinite;
+}
+.box16november > div:nth-child(2) {
+  -webkit-animation-delay: 0.33333s;
+  animation-delay: 0.33333s;  
+}
+.box16november > div:nth-child(3) {
+  -webkit-animation-delay: 0.66666s;
+  animation-delay: 0.66666s;
+}
+@-webkit-keyframes box16november {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes box16november {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*Einde van dag 15*/
+
+/*Dag 16*/
+.box17november {
+
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  background: black;
+  margin-left: 35px;
+}
+.box17november > div {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: box17november 1s 0s linear infinite;
+  animation: box17november 1s 0s linear infinite;
+}
+.box17november > div:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;  
+}
+.box17november > div:nth-child(3) {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+@-webkit-keyframes box17november {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes box17november {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*Einde van dag 16*/
+
+/*Begin van dag 17*/
+.box18november{
+  height: 150px;
+  width: 150px;
+  background: black;
+  margin-left: 35px;
+}
+
+.box18november:hover{
+  background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+  animation-delay: 8s;
+}
+/*Einde van dag 17*/
+
+/*Begin van dag 18*/
+.box19november{
+  height:150px;
+  width: 75px;
+  background: pink;
+  transition: transform 3000ms ease-in-out;
+}
+
+.box19november:hover{
+    transform: translate(300px, 150px)
+    rotate(00deg);
+}
+
+.box19november:active{
+  background: yellow;
+}
+
+/*Einde van dag 18*/
+
+/*Begin van dag 19*/
+.box20november{
+  height:150px;
+  width: 75px;
+  background: pink;
+  transition: transform 3000ms ease-in-out;
+}
+
+.box20november:hover{
+    transform: translate(-300px, 150px)
+    rotate(00deg);
+}
+
+.box20november:active{
+  background: yellow;
+}
+
+/*Einde van dag 19*/
+
+/*Begin van dag 20 */
+.box21november{
+  border: 16px solid blue;
+  border-radius: 50%;
+  border-top: 16px solid lightblue;
+  width: 120px;
+  margin-left: 35px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+  0% {transform: rotate (0deg); }
+  100% {transform: rotate(360deg);}
+}
+/*Einde van dag 20*/
+
+/*Begin van dag 21*/
+
+.box22november{
+  border: 16px solid blue;
+  border-radius: 50%;
+  border-top: 16px solid lightblue;
+  margin-left: 35px;
+  width: 120px;
+  height: 120px;
+  animation: spin2 2s linear infinite;
+  
+}
+@keyframes spin2{
+  0% {transform: rotate (-90deg); }
+  100% {transform: rotate(-360deg);}
+  from {border-color: solid blue;
+        border-top: 16px solid lightblue;}
+    to {border-color: yellow;
+        border-top: 16px solid lightyellow;}
+}
+/*Einde van dag 21*/
+
+/*Begin van dag 22*/
+.box23november{
+    width: 65px;
+    height: 65px;
+    border-radius: 55px;  
+    background-color: black;
+    position: relative;
+    -webkit-animation-name: drieentwintig; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: drieentwintig;
+    animation-duration: 4s;
+}
+@-webkit-keyframes drieentwintig {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:65px; top:0px;}
+    50%  {background-color:blue; left:65px; top:65px;}
+    75%  {background-color:green; left:0px; top:65px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/*Einde van dag 22*/
+
+/*Begin van dag 23*/
+.box24november{
+    width: 65px;
+    height: 65px;
+    border-radius: 55px;  
+    background-color: black;
+    position: relative;
+    -webkit-animation-name: vierentwintig; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: vierentwintig;
+    animation-duration: 4s;
+}
+@-webkit-keyframes vierentwintig {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:blue; left:65px; top:0px;
+          border-radius: 0px;}
+    50%  {background-color:green; left:65px; top:65px;}
+    75%  {background-color:yellow; left:0px; top:65px;
+    border-radius: 0px;}
+    100% {background-color:red; left:0px; top:0px;
+          border-radius: 50px; }
+}
+/*Einde van dag 23*/
+
+/*Begin van dag 24*/
+.box25november{
+  margin: 50px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.box25november > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.box25november .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.box25november .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+/*Einde van dag 24*/
+
+/*Begin van dag 25*/
+.box26november{
+  margin: 50px auto 0; 
+  width: 70px;
+  text-align: center;
+}
+
+.box26november > div {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelayeen 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelayeen 1.4s infinite ease-in-out both;
+}
+
+.box26november .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+  background-color: red;
+
+}
+
+.box26november .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  background: yellow;
+}
+
+.box26november .bounce3 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  background: green;
+}
+
+.box26november .bounce4 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  background: blue;
+}
+
+
+@-webkit-keyframes sk-bouncedelayeen {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.5) }
+}
+
+@keyframes sk-bouncedelayeen {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+/*Einde van dag 25*/
+
+/*Begin van dag 26*/
+.box27november{
+  position:relative;
+  vertical-align: middle;
+  color: black;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+  padding:  0 20px;
+  cursor: pointer;
+  border: 2px solid black;
+  width: 200px;
+  font-family: raleway;
+  font-weight: 800;
+  -webkit-transition:0.5s;
+  padding-bottom: 25px;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  60% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 60% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+/*Einde van dag 26*/
+
+/*Begin van dag 27*/
+.box28november{
+  position:relative;
+  vertical-align: middle;
+  color: black;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+  padding:  0 20px;
+  cursor: pointer;
+  border: 2px solid black;
+  width: 200px;
+  font-family: raleway;
+  font-weight: 800;
+  -webkit-transition:0.5s;
+  padding-bottom: 25px;
+  
+}
+
+.box28november:hover{
+  -webkit-animation: achtentwintig 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: achtentwintig 5s infinite;
+}
+
+@-webkit-keyframes achtentwintig {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) 
+        -webkit-transform: background:red;
+      }
+}
+/*Einde van dag 27*/
+
+/*Begin van dag 28*/
+.box29november{
+  position:relative;
+  vertical-align: middle;
+  color: black;
+  display: inline-block;
+  height: 60px;
+  width: 30px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+  padding:  0 20px;
+  cursor: pointer;
+  border: 2px solid black;
+  width: 200px;
+  font-family: raleway;
+  font-weight: 800;
+  padding-bottom: 25px;
+}
+/*Einde van dag 28*/
