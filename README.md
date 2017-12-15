@@ -18,3 +18,5 @@ Het is voor mij goed geweest om veel te werken met CSS en met een ander frontend
 
 Het werken met foundation is voor mijzelf ook van grote waarde. Ik weet nu hoe ik websites direct responsive krijg in Bootstrap, maar ook in Foundation. Ik denk dat dit me uiteindelijk een betere mediadesigner heeft gemaakt, dan voor deze 30-day challenge.  
 
+
+### live link: www.jovalo.nl/30daycss
