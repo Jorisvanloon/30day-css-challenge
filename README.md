@@ -1,3 +1,3 @@
 ## 30 day CSS Challenge
 
-Wat begon als een grapje resulteerde in een 30-dagen lang challenge. Ik heb me tijdens deze challenge niet bezig gehouden met een sixpack creeren, of 20kg af te vallen, maar gekeken naar CSS-animaties en wat hier allemaal mee mogelijk is. 
+Er zijn verschillende 30-day challenges op de wereld te vinden. De ab-challenge, de diet-challenge, de schilder je schuur geel challenge, maar in dit geval ben ik aan de CSS-challenge begonnen. 30 dagen heb ik verschillende css-technieken toegepast.  
